@@ -1,0 +1,21 @@
+{
+    "name": "jet/framework",
+    "description": "personal framework",
+    "type": "framework",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Jet\\Framework\\": "Framework/"
+        }
+    },
+    "authors": [
+        {
+            "name": "jet2018"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "symfony/console": "^5.4",
+      "ext-pdo": "*"
+    }
+}

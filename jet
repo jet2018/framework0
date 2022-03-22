@@ -1,0 +1,24 @@
+#!/usr/bin/env php
+<?php
+require './vendor/autoload.php';
+require __DIR__.'/settings.php';
+use Jet\Framework\Databases\commands\CreateDatabase;
+use Jet\Framework\Databases\commands\DropDatabase;
+use Symfony\Component\Console\Application;
+use Jet\Framework\Databases\Base;
+
+# connection to the database
+$base = new Base();
+$connection  = $base->createConnection();
+// print $connection;
+
+$application = new Application();
+
+# add our commands
+$application->add(new CreateDatabase());
+$application->add(new DropDatabase());
+
+
+
+
+$application->run();
