@@ -11,7 +11,8 @@ class BaseTable extends Database
     public $table_name;
 
     use Table;
-    function setColumns($columns){
+    function setColumns($columns)
+    {
         $this->columns = $columns;
         return $this;
     }
@@ -24,11 +25,9 @@ class BaseTable extends Database
 
     function dropTable()
     {
-        $sql = "DROP TABLE IF EXISTS ".$this->table_name;
+        $sql = "DROP TABLE IF EXISTS " . $this->table_name;
         $this->runQuery($sql);
-        echo "Table ".$this->table_name." dropped successfully";
+        echo "Table " . $this->table_name . " dropped successfully";
         return $this;
     }
-
-
 }

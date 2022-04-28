@@ -1,22 +1,22 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
         'type' => 'framework',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => NULL,
+        'reference' => 'a97d3dbe2cf750bda3abc9b5d9d07e719cfd9691',
         'name' => 'jet/framework',
         'dev' => true,
     ),
     'versions' => array(
         'jet/framework' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
             'type' => 'framework',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => NULL,
+            'reference' => 'a97d3dbe2cf750bda3abc9b5d9d07e719cfd9691',
             'dev_requirement' => false,
         ),
         'psr/container' => array(
@@ -40,7 +40,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../symfony/console',
             'aliases' => array(),
-            'reference' => 'd8111acc99876953f52fe16d4c50eb60940d49ad',
+            'reference' => 'ffe3aed36c4d60da2cf1b0a1cee6b8f2e5fa881b',
             'dev_requirement' => false,
         ),
         'symfony/deprecation-contracts' => array(
@@ -49,7 +49,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../symfony/deprecation-contracts',
             'aliases' => array(),
-            'reference' => '6f981ee24cf69ee7ce9736146d1c57c2780598a8',
+            'reference' => 'e8b495ea28c1d97b5e0c121748d6f9b53d075c66',
             'dev_requirement' => false,
         ),
         'symfony/polyfill-ctype' => array(
@@ -112,7 +112,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../symfony/service-contracts',
             'aliases' => array(),
-            'reference' => '034c73d5dd4c05c71a27f05b3c43c0f2fcc8985a',
+            'reference' => '24d9dc654b83e91aa59f9d167b131bc3b5bea24c',
             'dev_requirement' => false,
         ),
         'symfony/string' => array(
@@ -121,7 +121,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../symfony/string',
             'aliases' => array(),
-            'reference' => '92043b7d8383e48104e411bc9434b260dbeb5a10',
+            'reference' => '434200142276d3a8b0b1920bec8fd5c974cc0e60',
             'dev_requirement' => false,
         ),
     ),

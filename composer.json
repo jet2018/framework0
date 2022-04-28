@@ -5,7 +5,8 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Jet\\Framework\\": "Framework/"
+            "Jet\\Framework\\": "Framework/",
+            "Jet\\ORM\\": "Framework/New/ORM/"
         }
     },
     "authors": [

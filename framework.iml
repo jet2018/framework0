@@ -4,6 +4,7 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/Framework" isTestSource="false" packagePrefix="Jet\Framework\" />
+      <sourceFolder url="file://$MODULE_DIR$/Framework/New/ORM" isTestSource="false" packagePrefix="Jet\ORM\" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/composer" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/polyfill-mbstring" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/polyfill-php80" />

@@ -1,7 +1,8 @@
 #!/usr/bin/env php
 <?php
 require './vendor/autoload.php';
-require __DIR__.'/settings.php';
+require __DIR__ . '/settings.php';
+
 use Jet\Framework\Databases\commands\CreateDatabase;
 use Jet\Framework\Databases\commands\DropDatabase;
 use Symfony\Component\Console\Application;
